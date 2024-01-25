@@ -9,7 +9,6 @@ import lightning as L
 import torch
 from lightning.fabric.plugins import BitsandbytesPrecision
 from lm_eval.base import BaseLM
-from configs.lora_config import lora_r, lora_alpha, lora_dropout, lora_query, lora_key, lora_value, lora_projection, lora_mlp, lora_head
 
 # support running without installing as a package
 wd = Path(__file__).parent.parent.resolve()
@@ -19,6 +18,7 @@ from lm_eval_harness import EvalHarnessBase
 from lit_gpt import Tokenizer
 from lit_gpt.lora import GPT, Config, merge_lora_weights
 from lit_gpt.utils import check_valid_checkpoint_dir, get_default_supported_precision, load_lora_checkpoint
+from configs.lora_config import lora_r, lora_alpha, lora_dropout, lora_query, lora_key, lora_value, lora_projection, lora_mlp, lora_head
 
 
 def generate_prompt(example):
