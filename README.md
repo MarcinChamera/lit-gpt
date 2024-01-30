@@ -1,15 +1,3 @@
-# My Weights & Biases Report
-
-Check out the [full report](https://wandb.ai/chamera/llm-finetuning/reports/Finetuning-LLMs--Vmlldzo2NjQ1MTA3) for more detailed insights.
-
-
-![wandb-report-1](img/wandb-report-1.png)
-![wandb-report-2](img/wandb-report-2.png)
-![wandb-report-3](img/wandb-report-3.png)
-![wandb-report-3](img/wandb-report-4.png)
-
-
-
 <div align="center">
 <img src="https://pl-public-data.s3.amazonaws.com/assets_lightning/LitStableLM_Badge.png" alt="Lit-GPT" width="128"/>
 
